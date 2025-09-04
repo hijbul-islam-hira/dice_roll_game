@@ -23,24 +23,29 @@
 
     <!-- Main section -->
     <main>
-        <div class="dice-show">
-            <img src="" alt="">
+        <!-- dice show div -->
+        <div class="diceshow">
+            <img id="dice-show"  src="" alt="">
         </div>
+
+        <!-- User section div -->
         <div class="user">
             <div class="player1">
                 <i class="fa-solid fa-user"></i>
-                <p>Score</p>
+                <h3 id="player1"> </h3>
+                <p>Score : </p>
 
             </div>
-            <div class="roll">
-                <button class="btn">
+            <div class="button-container">
+                <button class="btn" onclick="randomNumber()">
                     Roll Dice
                 </button>
 
             </div>
             <div class="player2">
                 <i class="fa-solid fa-user"></i>
-                <p>Score</p>
+                <h3 id="player2"> </h3>
+                <p>Score : </p>
 
             </div>
         </div>
