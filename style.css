@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.slide-text {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    position: relative;
+    animation: slide 20s infinite linear;
+  }
+
+  @keyframes slide {
+    0%   { left: -200px; }
+    50%  { left: 200px; }
+    100% { left: -200px; }
+  }
+  .user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40rem;
+    
+  }
+  i{
+    font-size: 10rem;
+  }
+
+.btn {
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 65, 108, 0.4);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(255, 65, 108, 0.5);
+  }  
